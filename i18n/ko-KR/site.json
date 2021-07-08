@@ -1,31 +1,31 @@
 {
   "generics": {
-    "share": "Share",
-    "copy": "Copy",
-    "filter": "Filter",
-    "cancel": "Cancel",
+    "share": "공유",
+    "copy": "복사",
+    "filter": "필터",
+    "cancel": "취소",
     "ok": "OK",
-    "close": "Close",
+    "close": "닫기",
     "previous": "Back",
     "next": "Next",
-    "retry": "Retry",
+    "retry": "재시도",
     "soon": "Soon",
-    "beta": "Beta",
+    "beta": "베타",
     "new": "New",
-    "save": "Save",
+    "save": "저장",
     "goBack": "Go back",
     "moreOf": "More {{ content }}",
     "error$": {
       "emoji": "\uD83D\uDE31",
       "title": "",
-      "message": "An error has occured. Please retry."
+      "message": "오류가 발생했습니다. 다시 시도해 주세요."
     },
     "mihoyoError$": {
       "emoji": "\uD83D\uDEA8",
       "title": "",
-      "message": "Unable to connect to Genshin server."
+      "message": "원신 서버에 연결할 수 없습니다."
     },
-    "archiveWarning": "\uD83D\uDEA8 Since March 28, 2021 we can’t retrieve wishes older than 6 months because miHoYo started deleting them from the in-game history. If you have a backup, you will soon be able to import it on the site.",
+    "archiveWarning": "\uD83D\uDEA8 2021년 3월 28일부터 miHoYo에서 6개월 이상 된 기원 정보를 삭제하고 있으므로 그에 해당하는 기원 정보는 가져올 수 없습니다. 만약 백업을 가지고 있다면 곧 사이트에서 불러올 수 있게 될 것입니다.",
     "rank": "{{ rank }}★",
     "region$": {
       "6": "America",
@@ -37,32 +37,32 @@
     "title": "Genshin Wishes",
     "titleWithPage": "Genshin Wishes — {{ page }}",
     "description": "Save and keep track of your wishes easily",
-    "menu": "Menu",
+    "menu": "메뉴",
     "getStarted": "Get started",
     "persistLink": {
-      "persist": "Save on your device for 24h",
-      "doNotPersist": "Don't save the link"
+      "persist": "24시간 동안 기기에 저장",
+      "doNotPersist": "링크 저장하지 않기"
     },
     "user": {
       "uid": "UID {{ uid }}"
     },
     "urlInput": {
       "dialog": {
-        "title": "Your link has expired",
-        "message": "\uD83D\uDEA8 The authentication link is not valid. Please update it. <a href=\"/faq\" target=\"_blank\"> How?</a>",
-        "ok": "Update link"
+        "title": "링크가 만료되었습니다.",
+        "message": "\uD83D\uDEA8 인증 링크가 만료되었습니다. 새로 발급받으세요. <a href=\"/faq\" target=\"_blank\"> How?</a>",
+        "ok": "링크 재발급"
       },
-      "pasteInput": "Paste your link here",
-      "correctLink": "\uD83D\uDE0E Ok, it looks fine",
-      "incorrectLink": "\uD83D\uDE31 Incorrect link, please try again!"
+      "pasteInput": "여기에 링크 붙여넣기",
+      "correctLink": "\uD83D\uDE0E 음, 좋아요.",
+      "incorrectLink": "\uD83D\uDE31 링크가 올바르지 않아요. 다시 시도해 주세요."
     },
     "urlSetup": {
       "title": "Setup your account",
       "finish": "Finish",
       "step": "Step {{ step }}",
       "loading": {
-        "title": "Loading your wishes...",
-        "subtitle": "Hold on! This could take few minutes."
+        "title": "기원 정보를 불러오는 중...",
+        "subtitle": "몇 분만 기다려 주세요."
       },
       "steps$": {
         "1": {
@@ -77,13 +77,13 @@
         }
       }
     },
-    "signIn": "Sign-in"
+    "signIn": "로그인"
   },
   "auth": {
-    "signInMethod": "Choose a sign-in method",
+    "signInMethod": "로그인 방법을 선택하세요.",
     "hint": "You are NOT signing into Genshin Impact",
     "subHint": "We encourage you to choose a separate provider than your in-game account.",
-    "logout.label": "Logout"
+    "logout.label": "로그아웃"
   },
   "banners": {
     "label": "Banners",
@@ -97,8 +97,8 @@
     "none": "None"
   },
   "cookie": {
-    "title": "Hey! Paimon left us some cookies. \uD83D\uDE0B\n",
-    "message": "By using this site, you agree to the use of  cookies for traffic analysis only.",
+    "title": "페이몬이 쿠키를 남겨두었어요! \uD83D\uDE0B\n",
+    "message": "By using this site, you agree to the use of  cookies for traffic analysis only. ",
     "ok": "Ok, I like cookies!"
   },
   "faq": {
@@ -373,24 +373,24 @@
     },
     "banners$": {
       "ALL": {
-        "title": "All wishes",
-        "titleWithCount": "All wishes ({{ wishes }})"
+        "title": "모든 기원",
+        "titleWithCount": "모든 기원 ({{ wishes }}회)"
       },
       "NOVICE": {
-        "title": "Novice banner",
-        "titleWithCount": "Novice banner ({{ wishes }} wishes)"
+        "title": "초심자 기원",
+        "titleWithCount": "초심자 기원 ({{ wishes }}회)"
       },
       "PERMANENT": {
-        "title": "Permanent banner",
-        "titleWithCount": "Permanent banner ({{ wishes }} wishes)"
+        "title": "일반 기원",
+        "titleWithCount": "일반 기원 ({{ wishes }}회)"
       },
       "CHARACTER_EVENT": {
-        "title": "Character banner",
-        "titleWithCount": "Character banner ({{ wishes }} wishes)"
+        "title": "캐릭터 이벤트 기원",
+        "titleWithCount": "캐릭터 이벤트 기원 ({{ wishes }}회)"
       },
       "WEAPON_EVENT": {
-        "title": "Weapon banner",
-        "titleWithCount": "Weapon banner ({{ wishes }} wishes)"
+        "title": "무기 이벤트 기원",
+        "titleWithCount": "무기 이벤트 기원 ({{ wishes }}회)"
       }
     }
   },
